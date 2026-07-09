@@ -1,10 +1,18 @@
 baseURL = "https://3dprintceramic.com/"
 languageCode = "en-us"
 title = "3D Print Ceramic"
-theme = "printwire"
+[outputs]
+  home = ["HTML", "JSON"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 # ── All single-value params MUST come before [[params.*]] array tables ──
 [params]
+siteName      = "3D Print Ceramic"
+logoHtml      = '3D&nbsp;PRINT&nbsp;<span class="ed-logo-accent">CERAMIC</span>'
 tagline       = "The definitive resource for ceramic additive manufacturing."
 description   = "3D Print Ceramic — the leading resource for ceramic additive manufacturing news, research, and custom printing services. Covering technical ceramics, clay printing, and kiln-free fabrication."
 keywords      = "ceramic 3D printing, additive manufacturing ceramics, clay 3d printing, technical ceramics, alumina printing, zirconia printing, lithography-based ceramic, binder jetting ceramics"
