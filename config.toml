@@ -18,7 +18,7 @@ description   = "3D Print Ceramic — the leading resource for ceramic additive 
 keywords      = "ceramic 3D printing, additive manufacturing ceramics, clay 3d printing, technical ceramics, alumina printing, zirconia printing, lithography-based ceramic, binder jetting ceramics"
 logoEmoji     = "🏺"
 contactEmail  = "maxdavisgroup@gmail.com"
-ogImage       = "images/01_voronoi_vase.png"
+ogImage       = "/images/03_textured_collection.png"
 footerServicesLabel = "Services"
 
 colorPrimary      = "#c2714f"
